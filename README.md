@@ -11,7 +11,7 @@ A small homework that builds a normalized PostgreSQL schema for a task tracker (
 ## Schema
 
 - `users(id, fullname, email)`
-- `status(id, name)` — e.g. `new`, `in progress`, `completed`
+- `status(id, name)` - e.g. `new`, `in progress`, `completed`
 - `tasks(id, title, description, status_id → status.id, user_id → users.id)`
 
 ## Configuration

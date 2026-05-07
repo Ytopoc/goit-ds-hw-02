@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# [host, dbname, user, password, port] — read from environment.
+# [host, dbname, user, password, port] - read from environment.
 infa = [
     os.getenv("POSTGRES_HOST", "localhost"),
     os.getenv("POSTGRES_DB", "postgres"),
