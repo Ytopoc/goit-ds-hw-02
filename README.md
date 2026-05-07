@@ -1,3 +1,5 @@
+[**English**](README.md) | [Українська](README.uk.md)
+
 # PostgreSQL Tasks CRUD
 
 A small homework that builds a normalized PostgreSQL schema for a task tracker (`users`, `status`, `tasks`), seeds it with synthetic data via `Faker`, and exercises every required SELECT query.
